@@ -15,17 +15,16 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].*/
 //psudo code:
 
 
-
-class Solution {
+/*class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int t){
-    for(int i=0;i<nums.size();i++){
+    vector<int> twoSum(vector<int>& nums, int t) {
+        for(int i=0;i<nums.size();i++){
         for(int j=i+1;j<nums.size();j++){
-            if(nums[i]+nums[j]==target){
-                return [i,j];
+            if(nums[i]+nums[j]==t){
+                return{i,j};
             }
         }
     }
-    return {}
- }
-};
+    return{};
+    }
+};*/
