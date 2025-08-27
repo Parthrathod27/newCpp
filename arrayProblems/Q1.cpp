@@ -28,3 +28,10 @@ public:
     return{};
     }
 };*/
+
+
+
+/*using two pointer approch to find the sum which will be equal to the target
+ in this approch we use first for loop as i and second for loop as j and start comparing them and putting a if condition where if the sum of the 2 number is 
+ equal to target then return the index of that 2 number hence we are using two for loop ,
+  the Time complixity is O(N^2),Space complixity is O(1),hence we are not using extra space */
