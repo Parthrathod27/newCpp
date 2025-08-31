@@ -25,7 +25,7 @@ An integer x is a multiple of k if there exists an integer n such that x = n * k
             we will check the size of that rem because the condition is already given that the subarray should be greater than or equal to 2
             if it satisfy the given contdition return true
             else store the i in the rem
-            at last return false ( if the condition is not satisfy the return value will be false
+            at last return false ( if the condition is not satisfy the return value will be false)*/
 
 
 code:-
@@ -39,7 +39,7 @@ m[0]=-1;
 
 int ps=0;
 for(int i=0;i<n;i++){
- ps[i]+=arr[i];
+ ps+=arr[i];
 
  int rem;
  if(k!=0){
